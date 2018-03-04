@@ -1,9 +1,5 @@
 /* --------reset css-------- */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 html, body {
     margin: 0;
@@ -14,13 +10,14 @@ html, body {
     vertical-align: baseline;
 }
 
-
 body {
     line-height: 1;
 }
+
 /* ----- reset done -------- */
 
 /* ----- main css -------- */
+
 
 body {
     display: block;
@@ -34,6 +31,8 @@ body {
     margin: 15px auto;
     padding: 20px 20px;
 }
+
+/*------ header ------*/
 
 .header {
     display: -webkit-box;
@@ -80,6 +79,8 @@ body {
     text-align: right;
 }
 
+/*------ content ------*/
+
 .main-photo {
     width: 90%;
     margin: 10px auto;
@@ -114,6 +115,8 @@ body {
     padding-bottom: 2%;
 }
 
+/*------ footer ------*/
+
 .footer {
     font-size: 0.6em;
     text-align: right;
@@ -121,7 +124,7 @@ body {
     color: grey;
 }
 
-/* ---------------- main scc done-------------------*/
+/* ---------------- main css done-------------------*/
 
 /* ---------------- media queries-------------------*/
 
