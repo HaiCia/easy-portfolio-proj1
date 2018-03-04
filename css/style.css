@@ -1,0 +1,233 @@
+/* --------reset css-------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ----- reset done -------- */
+/* ----- main css -------- */
+
+body {
+    display: block;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background-color: lightblue;
+    max-width: 1128px;
+    margin: 15px auto;
+    padding: 20px 20px;
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 3px solid blue;
+    margin-bottom: 2%;
+}
+
+.logo-img {
+    align-self: center;
+}
+
+.header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    padding: 10px;
+}
+
+.header-content p {
+    padding: 10px;
+    font-size: 1.5em;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+.main-photo {
+    width: 90%;
+    margin: 10px auto;
+    padding: 0 5%;
+}
+
+.projects h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 1%;
+    border-bottom: blue solid 2px;
+    margin: 10px 40% 10px;
+}
+
+.project-links {
+    display: flex;
+    
+}
+
+.project-links a {
+    width: 90%;
+    margin: 10px;
+    align-self: center;
+    font-size: 1.5em;
+    text-align: center;
+}
+.project-links img {
+    max-width: 100%;
+    padding-bottom: 2%;
+}
+
+
+.footer {
+    font-size: 0.6em; 
+    text-align: right;
+    padding-top: 25px;
+    color: grey;
+}
